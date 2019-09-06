@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '>= 3.2.0', '< 4.0'
+  s.add_dependency 'spree_core', '>= 3.2.0'
   s.add_dependency 'rubyzip', '~> 1.2.1'
   s.add_dependency 'state_machine', '~> 1.2.0'
   s.add_dependency 'sprockets-helpers', '~> 1.2.1'
